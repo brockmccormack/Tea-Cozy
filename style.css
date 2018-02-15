@@ -53,35 +53,42 @@ a {
 }
 
 
-a:-webkit-any-link {
-      cursor: pointer;
-    text-decoration: underline;
-}
-
 .mission {
+  display: flex-container;
   background-image: url(img-mission-background.jpg);
   height: 700px;
   position: relative;
+  width: 1200px;
 
 
 }
 
 .missiontext {
-    position: absolute;
-    width: auto;
+
     align-items: middle;
-    left: 0;
-    top: 50%;
-    width: 100%;
+    position: absolute;
+    top: 350px;
+    width: 1200px;
     background-color: black;
 
 }
 
+.tea-title {
+  width: 1200px;
+  align-items: center;
+}
+
 .flex-container {
+  align-items: center;
+  width: 1000px;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   }
+
+
+
+
 
 .flex-container > div {
 
@@ -104,18 +111,34 @@ a:-webkit-any-link {
 
 }
 
-.locations-top {
-    position: relative;
-  }
+.locations-title {
+       top: 85px;
+    width: 1200px;
+    flex-direction: column;
+    justify-content: center;
+    }
 
 
 
 .locations > div {
-  position: relative;
-  top: 245px;
+
+  top: 100px;
+  bottom: 100px;
   background: black;
   width: 300px;
   display: inline-block;
-  margin: 10px;
-  padding: 15px;
+  margin-top: 15px;
+  margin-right: 20px;
+   margin-left: 20px;
+
+}
+
+.closing-block {
+  height: 200px;
+  width: auto;
+}
+
+.copyright-block {
+  text-align: left;
+  top: 20px;
 }
